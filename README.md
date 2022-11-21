@@ -1,46 +1,70 @@
-# Getting Started with Create React App
+## Description
+- 프로젝트: '넷플릭스' 클론 코딩 강좌
+- 강사: 코딩 알려주는 누나
+- 강좌: https://codingnoona.thinkific.com/courses/3
+- API: https://www.themoviedb.org/documentation/api
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Installed Package
+- TypeScript
+  - npx create-react-app --template typescript .
+- Bootstrap
+  - https://react-bootstrap.github.io/getting-started/introduction
+  - npm install react-bootstrap bootstrap
+- Router
+  - https://reactrouter.com/
+  - npm install react-router-dom
+- redux
+  - https://redux.js.org/introduction/getting-started
+  - npm install redux
+- react redux
+  - https://react-redux.js.org/introduction/getting-started
+  - npm install react-redux
+- react middleware
+  - https://github.com/reduxjs/redux-thunk
+  - npm install redux-thunk
+- redux devtools extension
+  - https://github.com/zalmoxisus/redux-devtools-extension
+  - npm install --save redux-devtools-extension
+- Redux Toolkit
+  - https://redux-toolkit.js.org/introduction/getting-started
+  - npm install @reduxjs/toolkit
 
-## Available Scripts
+## Task
+- 페이지 3개
+  - home
+  - movie
+  - movieDetail
+- 홈페이지
+  - 배너 표시
+  - 섹션 3개
+    - popular
+    - top rated
+    - upcomming
+  - 각 영화에 마우스 on 표시
+    - 제목
+    - 장르
+    - 점수
+    - 인기도
+    - 청불여부
+  - 카테고리에 슬라이드 적용
+- movieDetail
+  - 포스터
+  - 제목
+  - 줄거리
+  - 점수
+  - 인기도
+  - 청불여부
+  - 예산
+  - 이익
+  - 러닝타임
+  - trailer
+  - 리뷰
+  - 관련 영화들
+- 검색
+  - 정렬
+  - 필터링
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- 추천
+  - '이거 볼래?' 카테고리로 1개만 표시
+- 다중 필터
+  - 선택된 것은 색깔로 표시
