@@ -28,6 +28,9 @@
 - Redux Toolkit
   - https://redux-toolkit.js.org/introduction/getting-started
   - npm install @reduxjs/toolkit
+- Axios
+  - https://www.npmjs.com/package/axios
+  - npm install axios
 
 ## Task
 - 페이지 3개
