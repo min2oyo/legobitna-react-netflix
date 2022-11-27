@@ -34,6 +34,9 @@
 - React Multi Carousel
   - https://www.npmjs.com/package/react-multi-carousel
   - npm install react-multi-carousel --save
+- React Spinners
+  - https://www.npmjs.com/package/react-spinners
+  - npm install --save react-spinners
 
 ## Task
 - 페이지 3개
