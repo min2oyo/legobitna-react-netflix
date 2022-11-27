@@ -31,6 +31,9 @@
 - Axios
   - https://www.npmjs.com/package/axios
   - npm install axios
+- React Multi Carousel
+  - https://www.npmjs.com/package/react-multi-carousel
+  - npm install react-multi-carousel --save
 
 ## Task
 - 페이지 3개
